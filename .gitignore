@@ -1,0 +1,36 @@
+# ─── Build Artifacts ───────────────────────────────────────────────────────────
+vitals
+vitals.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ─── Release Folder ────────────────────────────────────────────────────────────
+releases/
+
+# ─── Go Test/Coverage ──────────────────────────────────────────────────────────
+*.coverprofile
+
+# ─── IDE & Editor Junk ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# ─── OS Generated Files ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Sensitive File Patterns ───────────────────────────────────────────────────
+.env
+*.key
+*.pem
+*.crt
+*.cert
+*.config
+secrets.*
